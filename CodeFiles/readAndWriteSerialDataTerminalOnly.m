@@ -121,11 +121,11 @@ if(serialPortInitErr == false)
             clc; % clear terminal window
             fprintf('%s\n', dataString);
             fprintf('Mission Duration : %.2f s\n', time);
-            fprintf('Temperature 1: %.2f °C\n', Temp1);
-            fprintf('Temperature 2: %.2f °C\n', Temp2);
+            fprintf('Temperature 1: %.2f Â°C\n', Temp1);
+            fprintf('Temperature 2: %.2f Â°C\n', Temp2);
             fprintf('Battery Voltage: %.2f V\n', BattV);
             fprintf('Battery Current: %.2f A\n', BattC);
-            fprintf('Sun Angle: %.2f°\n', SunAngle);
+            fprintf('Sun Angle: %.2fÂ°\n', SunAngle);
             fprintf('Current Status: %s\n', Status);
             fprintf('Proximity Warning: %s\n', ProximityWarning);
         else
